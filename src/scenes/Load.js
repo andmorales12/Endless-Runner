@@ -1,6 +1,6 @@
-class Play extends Phaser.Scene {
+class Load extends Phaser.Scene {
     constructor() {
-        super("playScene")
+        super('loadScene')
     }
 
     preload() {
@@ -12,7 +12,6 @@ class Play extends Phaser.Scene {
     }
 
     update() {
-
+        
     }
-
 }
