@@ -5,6 +5,9 @@
 
 let config = {
     type: Phaser.AUTO,
+    render: {
+        pixelArt: true
+    },
     height: 640,
     width: 960,
     scale: {
@@ -25,5 +28,7 @@ let config = {
 
 let game = new Phaser.Game(config)
 
-// reserve keyboard
+// set global variables
+const centerX = game.config.width / 2
+const centerY = game.config.height / 2
 
