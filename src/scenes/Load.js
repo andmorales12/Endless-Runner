@@ -23,7 +23,8 @@ class Load extends Phaser.Scene {
         this.load.image('titlescreen', '/images/titlescreen.png')
 
         // load bitmap font
-
+        this.load.bitmapFont('pixelmania', '/font/pixelmania.png', '/font/pixelmania.xml')
+        this.load.bitmapFont('reppixel', '/font/reppixel.png', '/font/reppixel.xml')
 
         // load sprites
 
